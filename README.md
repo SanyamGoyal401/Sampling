@@ -22,9 +22,9 @@ The following sampling techniques are employed to address class imbalance:
 
 The sample size for each sampling technique is calculated using the formula:
 
-\[ n = \left( \frac{Z^2 \cdot p \cdot (1-p)}{E^2} \right) \]
+![Sample Size Formula](/Sampling/formula.png)
 
-where \(Z\) is the z-value, \(p\) is the estimated proportion of the majority class, and \(E\) is the desired margin of error.
+where Z is the z-value, p is the estimated proportion of the majority class, and E is the desired margin of error.
 
 ## Machine Learning Models
 
@@ -40,3 +40,5 @@ The experiment involves training the following machine learning models:
 ## Conclusion
 
 The project concludes with a summary of findings, highlighting the impact of sampling on model performance and offering insights into the most effective combinations of sampling techniques and classifiers for the given dataset.
+
+![Results](/Sampling/Results.png)
